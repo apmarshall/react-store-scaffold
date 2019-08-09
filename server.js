@@ -8,7 +8,7 @@ var port = process.env.PORT || 8080;
 browserify.settings ({
     transform: [babelify.configure({
     })],
-    presets: ["es2015", "react"],
+    presets: ["env", "react"],
     extensions: ['.js', '.jsx'],
     grep: /\.jsx?$/
 });
