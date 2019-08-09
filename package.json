@@ -1,0 +1,8 @@
+{
+  "name": "react-browserify-scaffold",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "apmarshall <apmarshall@soren.tech>",
+  "license": "MIT",
+  "private": false
+}
