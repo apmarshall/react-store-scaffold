@@ -4,5 +4,18 @@
   "main": "index.js",
   "author": "apmarshall <apmarshall@soren.tech>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "browserify-middleware": "^8.1.1",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.11.1"
+  }
 }
