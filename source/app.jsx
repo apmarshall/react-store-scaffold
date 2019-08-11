@@ -1,7 +1,7 @@
 'use strict'
 import React from 'react';
 import { render } from 'react-dom';
-const App = React.createClass({
+class App extends React.Component {
     render() {
         return (
             <section>
@@ -10,9 +10,9 @@ const App = React.createClass({
             </section>
         );
     }
-});
+}
 
 render (
     <App />,
-    document.getElementByID('container')
+    document.getElementById('container')
 );  
