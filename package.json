@@ -5,7 +5,7 @@
   "author": "apmarshall <apmarshall@soren.tech>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
