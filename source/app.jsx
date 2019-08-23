@@ -1,18 +1,11 @@
-'use strict'
-import React from 'react';
-import { render } from 'react-dom';
-class App extends React.Component {
-    render() {
-        return (
-            <section>
-                <h1>My scaffold</h1>
-                <p>Hello world</p>
-            </section>
-        );
-    }
-}
+"use strict";
+
+import React from "react";
+import Router from "react-router";
+import Routes from "./routes.jsx";
+import { render } from "react-dom";
 
 render (
-    <App />,
-    document.getElementById('container')
-);  
+	Routes,
+	document.getElementById('container')
+);
