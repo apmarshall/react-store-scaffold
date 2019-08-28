@@ -6,7 +6,7 @@ class Products extends React.Class {
     render() {
         return (
             <div />
-        )
+        );
     }
 }
 
