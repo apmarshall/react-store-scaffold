@@ -26,6 +26,11 @@ app.get('*', function (req, res) {
     res.sendFile(__dirname+"/public/index.html");
 });
 
+// json
+app.get('*.json', function (req, res) {
+    res.sendFile(__dirname+"public/"+req.path);
+});
+
 // Run the server
 app.listen(port, function() {
     browserSync ({
